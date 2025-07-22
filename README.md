@@ -38,19 +38,20 @@ python spam_classifier_gui.py
 ## CSV Format
 Your dataset should have two columns:
 ### Message	Category
-“You’ve won a free iPhone!”	spam
-“Let’s meet tomorrow.”	ham
+“You’ve won a free iPhone!”	              spam
+
+“Let’s meet tomorrow.”	                   ham
 ## Visualization Features
 * Bar Chart: Count of spam vs ham
 * Pie Chart: Percentage distribution
 * Confusion Matrix: Model performance
-* Text Classification: Result popup for any message
+* Text Classification: Result pop-up for any message
 ## Excel-based Implementation
 * Manual calculation of:
   * Prior probabilities
   * Word frequencies
   * Conditional probabilities
-* Predicts category using Bayes formula in formulas
+* Predicts category using the Bayes formula in formulas
 * Useful for academic presentations and non-coders
 ## Use Case
 * Learning text classification using Naive Bayes
