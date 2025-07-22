@@ -51,3 +51,20 @@ Spam-Detection-NaiveBayes/
     ```bash
    python spam_classifier_gui.py
 4. Load your CSV file and begin classification.
+
+## CSV Format
+Your dataset should have two columns:
+
+Message	Category
+"You’ve won a free iPhone!"	spam
+"Let’s meet tomorrow."	ham
+
+## Visualization Features
+Bar Chart: Count of spam vs ham
+
+Pie Chart: Percentage distribution
+
+Confusion Matrix: Model performance
+
+Text Classification: Result pop-up for any message
+
