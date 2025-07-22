@@ -1,4 +1,3 @@
-
 # Spam Email Detection using Naive Bayes Theorem
 
 This project demonstrates a **Spam vs Ham email classifier** built using the **Naive Bayes Theorem**. It combines both **Python (GUI + ML)** and **Excel** implementations to provide a comprehensive understanding of text classification using probabilities.
@@ -29,16 +28,13 @@ This project demonstrates a **Spam vs Ham email classifier** built using the **N
 
 ## Folder Structure
 
-```
-
 Spam-Detection-NaiveBayes/
 │
-├── spam\_classifier\_gui.py           # GUI-based Python application
-├── sample\_dataset.csv               # Example dataset (Message, Category)
-├── spam\_excel\_implementation.xlsx   # Excel-based Naive Bayes classifier
+├── spam_classifier_gui.py # GUI-based Python application
+├── sample_dataset.csv # Example dataset (Message, Category)
+├── spam_excel_implementation.xlsx # Excel-based Naive Bayes classifier
 ├── README.md
 
-````
 
 ---
 
@@ -48,79 +44,10 @@ Spam-Detection-NaiveBayes/
    ```bash
    git clone https://github.com/your-username/spam-email-naive-bayes.git
    cd spam-email-naive-bayes
-````
-
 2. Install dependencies:
-
-   ```bash
+    ```bash
    pip install pandas scikit-learn matplotlib nltk
-   ```
-
 3. Run the app:
-
-   ```bash
+    ```bash
    python spam_classifier_gui.py
-   ```
-
-4. Load your `CSV` file and begin classification.
-
----
-
-## CSV Format
-
-Your dataset should have two columns:
-
-| Message                     | Category |
-| --------------------------- | -------- |
-| "You’ve won a free iPhone!" | spam     |
-| "Let’s meet tomorrow."      | ham      |
-
----
-
-## Visualization Features
-
-* **Bar Chart:** Count of spam vs ham
-* **Pie Chart:** Percentage distribution
-* **Confusion Matrix:** Model performance
-* **Text Classification:** Result popup for any message
-
-![Bar, Pie, and Confusion Matrix](https://github.com/user-attachments/assets/d7060cb7-e26b-41ee-b7fa-33ee9b63f5e7)
-
----
-
-## Excel-based Implementation
-
-* Manual calculation of:
-
-  * Prior probabilities
-  * Word frequencies
-  * Conditional probabilities
-* Predicts category using the Bayes formula in Excel formulas
-* Useful for **academic presentations** and non-coders
-
----
-
-## Use Case
-
-This project is ideal for:
-
-* Learning **text classification** using Naive Bayes
-* Presenting a dual-mode (Python + Excel) solution in educational settings
-* Understanding basic **Natural Language Processing (NLP)** tasks
-
----
-
-## Screenshots
-
-![Excel Classifier Formulas](https://github.com/user-attachments/assets/7c11b549-c1e0-4fa0-8722-9217675457b0)
-![GUI Output](https://github.com/user-attachments/assets/72d31027-184e-49d5-8268-4b8cc79a9b78)
-![Confusion Matrix](https://github.com/user-attachments/assets/e7a5894d-0652-47b7-b631-31753b6a5c39)
-
----
-
-## Credits
-
-Project by **Rayan Badar**
-Special thanks to **Co-partner Sumaira Majeed** for support in development and documentation.
-
-```
+4. Load your CSV file and begin classification.
