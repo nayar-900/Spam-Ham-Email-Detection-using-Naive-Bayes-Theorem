@@ -18,8 +18,11 @@ This project demonstrates a Spam vs Ham email classifier built using the Naive B
 Spam-Detection-NaiveBayes/
 
 ├── spam_classifier_gui.py      # GUI-based Python application
+
 ├── sample_dataset.csv          # Example dataset (Message, Category)
+
 ├── spam_excel_implementation.xlsx   # Excel-based Naive Bayes classifier
+
 ├── README.md
 
 ## How to Run the Python Project
@@ -56,5 +59,6 @@ Your dataset should have two columns:
 * Understanding basic Natural Language Processing (NLP) tasks
 ## Credits
 Project by *Rayan Badar* 
+
 Special thanks to *Sumaira Majeed* for support in development and documentation.
 
