@@ -58,6 +58,7 @@ Your dataset should have two columns:
 * Presenting a dual-mode (Python + Excel) solution in educational settings
 * Understanding basic Natural Language Processing (NLP) tasks
 ## Credits
-Project by *Rayan Badar*
+Project by *Rayan Badar* 
+
 Special thanks to *Sumaira Majeed* for support in development and documentation.
 
